@@ -2,6 +2,16 @@
 
 A quick and dirty vibed repo to generate telemetry to a server, and also UDP so one can easily watch activity in realtime and search/slice/dice this data.
 
+## Markitecture 🏗️🏛️🛋️ (would an AI write this)
+
+```
+client generating UDP telemetry --
+                                  \
+                                   --- fluent-bit - > loki -> grafana
+                                  /
+client generating HTTP telemetry -
+```
+
 ## Build
 
 sudo docker compose up
