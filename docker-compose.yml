@@ -19,10 +19,14 @@ services:
 
   fluent-bit:
     image: fluent/fluent-bit:2.2
+    environment:
+      - FLB_ALL=On
+
     ports:
       - "9000:9000"
     volumes:
       - ./fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+      - ./parsers.conf:/fluent-bit/etc/parsers.conf
     depends_on:
       - loki
 
