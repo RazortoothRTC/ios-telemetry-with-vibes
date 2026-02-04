@@ -29,3 +29,7 @@ Example of Looking at data in Grafana:
 
 
 <img width="1976" height="1520" alt="image" src="https://github.com/user-attachments/assets/aa1a8f2d-0a43-40c1-81c1-3cf1a63c2e26" />
+
+## Testing
+
+was tested on nixos on a lan exposed by tailscale but local network lan is open.
