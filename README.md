@@ -13,6 +13,8 @@ Send in data either by curl: curl -X POST http://localhost:9000   -H "Content-Ty
 
 Or UDP echo "123,42,hello world" | nc -u -w0 localhost 9001
 
+Or in iOS app: just build it and run it because 🐲🦀🍕
+
 Example of Looking at data in Grafana:
 
 
