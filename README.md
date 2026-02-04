@@ -16,6 +16,10 @@ client generating HTTP telemetry -
 
 sudo docker compose up
 
+### iOS app
+
+You need to change the IP addresses in the app, otherwise, it doesn't work.  I fixed the security so it wouldn't block lan connections.  Don't use this for anything other than testing.
+
 
 ## Verification
 
